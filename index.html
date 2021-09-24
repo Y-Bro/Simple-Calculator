@@ -5,14 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JS Starter</title>
+  <title>Simple Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1>Hello World!</h1>
+<div class = "container">
+  <div class = "screen">
+    <div previousText class = "history"></div>
+    <div currentText class = "current"></div>
+  </div>
+  <button clear class = "two-grid">AC</button>
+  <button delete>DEL</button>
+  <button operator>/</button>
+  <button number>1</button>
+  <button number>2</button>
+  <button number>3</button>
+  <button operator>*</button>
+  <button number>4</button>
+  <button number>5</button>
+  <button number>6</button>
+  <button operator>+</button>
+  <button number>7</button>
+  <button number>8</button>
+  <button number>9</button>
+  <button operator>-</button>
+  <button number>.</button>
+  <button number>0</button>
+  <button equals class = "two-grid">=</button>
 
-<script src="script.js"></script>
+</div>
+
+<script defer src="script.js"></script>
 </body>
 
 </html>
